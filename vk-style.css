@@ -1,0 +1,279 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-decoration: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end reset browser styles */
+
+.main-page {
+    width: 785px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.page-header {
+    width: 785px;
+    height: 40px;
+    background-color: #4E729A;/*Цвет для выделения кнопок background-color: #2B587A;*/
+    border-radius: 0 0 8px 8px;
+}
+.side-bar {
+    width: 139px;
+    height: 900px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.page-body {
+    width: 635px;
+    height: 900px;
+    display: inline-block;
+    float: right;
+    border-left: solid 1px #E9EDF1;
+}
+tbody {
+    display: table-row-group;
+}
+tr {
+    display: table-row;
+}
+td {
+    display: table-cell;
+}
+.logo-button {
+    width: 140px;
+    height: 40px;
+    position: relative;
+}
+.logo-button a{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    height: 30px;
+}
+input {
+    width: 163px;
+    margin-right: 75px;
+    margin-left: 5px;
+}
+.people-button a{
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #E8EFF7;
+    padding: 13px 9px;
+
+}
+.people-button:hover{
+    background-color: #3d6087;
+}
+.people-button#music {
+    padding-right: 35px;
+}
+.my-profile {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-profile:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-pr-edit {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #808080;
+    padding: 5px;
+    border-radius: 3px;
+}
+.my-pr-edit:hover {
+    background-color: #e2e9f1;
+    color: #2B587A;
+}
+.my-friend {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-friend:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-photo {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-photo:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-video {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-video:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-audio {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-audio:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-messages {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-messages:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-group {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-group:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-news {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-news:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-notification {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-notification:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-fave {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-fave:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-settings {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-settings:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-apps {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-apps:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-documents {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-documents:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-adds {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-adds:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.my-top-applications {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.my-top-applications:hover {
+    background-color: #e2e9f1;
+    border-radius: 3px;
+}
+.border-group {
+    border-bottom: solid 1px #e2e9f1;
+    border-top: solid 1px #e2e9f1;
+}
