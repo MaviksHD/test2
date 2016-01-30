@@ -483,3 +483,11 @@ input {
 .int-pages {
     height: 40px;
 }
+.album-block {
+    margin-top: 20px;
+    border-right: solid 1px #F1F1F1;
+}
+.photo-alb {
+    width: 200px;
+    height: 300px;
+}
