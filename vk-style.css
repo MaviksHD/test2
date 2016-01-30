@@ -6,7 +6,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     text-decoration: none;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -361,13 +360,13 @@ input {
     float: right;
 }
 .percent {
-    padding-left: 33px;
+    padding-left: 30px;
     font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 11px;
     color: #8495A6;
 }
 .tell-school a {
-    width: 190px;
+    width: 170px;
     display: block;
     font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
@@ -381,13 +380,63 @@ input {
     margin-top: 10px;
 }
 .gifts-button a {
-    padding: 5px 142px 5px 8px;
+    padding: 5px 20px 5px 8px;
     font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 11px;
     color: #607387;
     font-weight: bold;
     background-color: #DEE5EB;
 }
+.gifts-number {
+    padding-left: 110px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 9px;
+    color: #8495A6;
+}
 .gift-images {
     padding-top: 10px;
+}
+.top-line {
+    width: 182px;
+    padding: 5px 10px 5px 8px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #607387;
+    font-weight: bold;
+    background-color: #DEE5EB;
+}
+.bottom-line {
+    background-color: #F1F1F1;
+    width: 192px;
+    color: #666;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    padding: 5px 0 5px 8px;
+}
+.people-block{
+    margin-top: 10px;
+}
+.decoration1 {
+    padding-left: 79px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #8495A6;
+}
+.fr-sh{
+    width: 55px;
+    height: 94px;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+}
+.dec-name-acc a{
+    display: inline-block;
+    color: #2B587A;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    text-align: center;
+    font-size: 11px;
+    padding-left: 5px;
+}
+.friends-block {
+
 }
