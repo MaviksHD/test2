@@ -50,11 +50,12 @@ table {
     padding-right: 5px;
 }
 .page-body {
-    width: 635px;
+    width: 606px;
     height: 900px;
     display: inline-block;
     float: right;
-    border-left: solid 1px #E9EDF1;
+    border-left: solid 1px #D9E0E7;
+    padding-right: 14px;
 }
 tbody {
     display: table-row-group;
@@ -83,7 +84,7 @@ input {
 }
 .people-button a{
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     font-weight: bold;
     color: #E8EFF7;
@@ -98,7 +99,7 @@ input {
 }
 .my-profile {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -109,7 +110,7 @@ input {
 }
 .my-pr-edit {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #808080;
     padding: 5px;
@@ -121,7 +122,7 @@ input {
 }
 .my-friend {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -132,7 +133,7 @@ input {
 }
 .my-photo {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -143,7 +144,7 @@ input {
 }
 .my-video {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -154,7 +155,7 @@ input {
 }
 .my-audio {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -165,7 +166,7 @@ input {
 }
 .my-messages {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -176,7 +177,7 @@ input {
 }
 .my-group {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -187,7 +188,7 @@ input {
 }
 .my-news {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -198,7 +199,7 @@ input {
 }
 .my-notification {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -209,7 +210,7 @@ input {
 }
 .my-fave {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -220,7 +221,7 @@ input {
 }
 .my-settings {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -231,7 +232,7 @@ input {
 }
 .my-apps {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -242,7 +243,7 @@ input {
 }
 .my-documents {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -253,7 +254,7 @@ input {
 }
 .my-adds {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -264,7 +265,7 @@ input {
 }
 .my-top-applications {
     display: block;
-    font-family: Arial, serif;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-size: 0.7em;
     color: #2B587A;
     padding: 5px 20px 5px 7px;
@@ -273,7 +274,106 @@ input {
     background-color: #e2e9f1;
     border-radius: 3px;
 }
-.border-group {
+.left-sidebar-block-border {
     border-bottom: solid 1px #e2e9f1;
     border-top: solid 1px #e2e9f1;
+}
+.main-body{
+    border-right: solid 1px #D9E0E7;
+}
+.account-header {
+    background-color: #E9EDF1;
+}
+.name-header {
+    display: inline-block;
+    padding: 8px 447px 8px 10px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #607387;
+    font-weight: bold;
+}
+.header-status {
+    display: inline-block;
+    text-align: right;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #AAB7C5;
+    font-weight: bold;
+}
+.account-side-bar {
+    padding: 10px;
+}
+.profile-edit a {
+    width: 173px;
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.profile-edit a:hover {
+    background-color: #e2e9f1;
+}
+.profile-border {
+    width: 200px;
+    height: 1px;
+    background-color: #E7EAED;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.number-video {
+    padding-left: 58px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #8495A6;
+}
+.number-followers {
+    padding-left: 71px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #8495A6;
+}
+.profile-rate {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 18px;
+    position: relative;
+}
+.rate-text {
+    color: #8BA1BC;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    position: absolute;
+    padding-top: 2px;
+    right: 80px;
+}
+.rate-lf {
+    width: 162px;
+    height: 18px;
+    background-color: #DEE5EB;
+    float: left;
+}
+.rate-rt {
+    width: 38px;
+    height: 18px;
+    background-color: #F1F1F1;
+    float: right;
+}
+.percent {
+    padding-left: 33px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #8495A6;
+}
+.tell-school a {
+    width: 190px;
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 0 5px 30px;
+}
+.tell-school a:hover {
+    background-color: #e2e9f1;
 }
