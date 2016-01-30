@@ -50,7 +50,6 @@ table {
 }
 .page-body {
     width: 606px;
-    height: 900px;
     display: inline-block;
     float: right;
     border-left: solid 1px #D9E0E7;
@@ -301,6 +300,7 @@ input {
 }
 .account-side-bar {
     padding: 10px;
+    float: left;
 }
 .profile-edit a {
     width: 173px;
@@ -415,6 +415,7 @@ input {
 }
 .people-block{
     margin-top: 10px;
+    border-right: solid 1px #F1F1F1;;
 }
 .decoration1 {
     padding-left: 79px;
@@ -423,11 +424,17 @@ input {
     color: #8495A6;
 }
 .fr-sh{
+    display: inline-block;
     width: 55px;
     height: 94px;
-    margin-left: 10px;
-    margin-top: 15px;
-    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.fr-sh2{
+    display: inline-block;
+    width: 55px;
+    height: 94px;
+    margin-left: 8px;
 }
 .dec-name-acc a{
     display: inline-block;
@@ -437,6 +444,42 @@ input {
     font-size: 11px;
     padding-left: 5px;
 }
-.friends-block {
-
+.dec-name-acc a:hover {
+    text-decoration: underline;
+}
+.middle-body {
+    background-color: #ff7a88;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+    width: 372px;
+    height: 1200px;
+}
+.pages-block {
+    margin-top: 10px;
+    border-right: solid 1px #F1F1F1;
+}
+.icon-block {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.icon-block-discription a{
+    width: 146px;
+    height: 32px;
+    float: right;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding-top: 10px;
+}
+.icon-block-discription a:hover {
+    text-decoration: underline;
+}
+.sec-group {
+}
+.int-pages {
+    height: 40px;
 }
