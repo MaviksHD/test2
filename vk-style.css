@@ -448,7 +448,7 @@ input {
     text-decoration: underline;
 }
 .middle-body {
-    background-color: #ff7a88;
+    /*background-color: #ff7a88;*/
     padding-right: 10px;
     padding-top: 10px;
     float: right;
