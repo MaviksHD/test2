@@ -377,3 +377,17 @@ input {
 .tell-school a:hover {
     background-color: #e2e9f1;
 }
+.gifts {
+    margin-top: 10px;
+}
+.gifts-button a {
+    padding: 5px 142px 5px 8px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #607387;
+    font-weight: bold;
+    background-color: #DEE5EB;
+}
+.gift-images {
+    padding-top: 10px;
+}
