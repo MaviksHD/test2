@@ -42,7 +42,7 @@ table {
 }
 .side-bar {
     width: 139px;
-    height: 900px;
+    height: 2500px;
     display: inline-block;
     padding-top: 5px;
     padding-left: 5px;
@@ -489,5 +489,95 @@ input {
 }
 .photo-alb {
     width: 200px;
-    height: 300px;
+    height: 236px;
+}
+.alb-icon {
+    width: 190px;
+    height: 118px;
+    overflow: hidden;
+    position: relative;
+}
+.alb-icon-pic1 {
+    padding: 10px;
+    width: 180px;
+    overflow: hidden;
+
+}
+.alb-title {
+    position: absolute;
+    top: 99px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.47);
+    color: white;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    font-weight: bold;
+}
+.alb-title-name {
+    padding: 3px 12px 3px 5px;
+    float: left;
+
+}
+.alb-title-name-camera {
+    float: right;
+    line-height: 22px;
+    padding-left: 88px;
+    padding-right: 6px;
+}
+.alb-title-name2 {
+    padding: 3px 42px 3px 5px;
+    float: left;
+
+}
+.alb-title-name-camera2 {
+    float: right;
+    line-height: 22px;
+    padding-left: 88px;
+    padding-right: 6px;
+}
+.video-alb {
+    width: 200px;
+}
+.video-alb-icon {
+    width: 190px;
+    height: 188px;
+}
+.video-name-style {
+    padding-left: 10px;
+}
+.video-name-style a {
+    width: 180px;
+    height: 30px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    color: #2B587A;
+    overflow: hidden;
+}
+.video-icon-pic {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 180px;
+    overflow: hidden;
+}
+.video-icon-pic2 {
+    padding: 10px;
+    width: 180px;
+    overflow: hidden;
+}
+.video-comments {
+    padding-left: 7px;
+}
+.video-comments-date{
+    color: gray;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-weight: normal;
+    padding: 0 4px;
+    font-size: 10px;
+}
+.vd-cmts {
+    color: #2B587A;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-weight: normal;
+    font-size: 10px;
 }
