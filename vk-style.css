@@ -11,9 +11,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    line-height: 1.2;
-}
 ol {
     padding-left: 1.4em;
     list-style: decimal;
@@ -540,7 +537,7 @@ input {
 }
 .video-alb-icon {
     width: 190px;
-    height: 188px;
+    height: 165px;
 }
 .video-name-style {
     padding-left: 10px;
@@ -580,4 +577,196 @@ input {
     font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
     font-weight: normal;
     font-size: 10px;
+}
+.video-preview {
+    overflow: hidden;
+    height: 110px;
+}
+.title-music {
+    width: 120px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.title-music a {
+    color: #2B587A;
+}
+.title-music a:hover {
+    text-decoration: underline;
+}
+.audio {
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+.audio:hover {
+    background: #E2E9F1;
+}
+.play-btn {
+    width: 16px;
+    height: 16px;
+    background: url("play1.png")no-repeat 0px;
+    padding-top: 13px;
+    padding-right: 5px;
+    margin-left: 6px;
+}
+.info {
+
+}
+.duration-music {
+    float: right;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    color: gray;
+    font-size: 10px;
+    padding-left: 18px;
+}
+.profile-border2 {
+    width: 190px;
+    height: 1px;
+    background-color: #E7EAED;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.statistic a {
+    width: 163px;
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    color: #2B587A;
+    padding: 5px 20px 5px 7px;
+}
+.statistic a:hover {
+    background-color: #e2e9f1;
+}
+.statistic {
+    height: 300px;
+}
+.name {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 12px;
+    color: #607387;
+    font-weight: bold;
+}
+.status {
+    padding-bottom: 5px;
+}
+.status a {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    color: #AAA;
+    font-size: 11px;
+    padding-top: 5px;
+}
+.status a:hover {
+    text-decoration: underline;
+}
+.account-name {
+    border-bottom: 1px solid #E7EAED;
+}
+.language {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    width: 135px;
+    color: #777;
+    font-size: 11px;
+    padding-top: 10px;
+    float: left;
+}
+.choose-lang {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    width: 135px;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.choose-lang a{
+    color: #607387;
+}
+.choose-lang a:hover {
+    text-decoration: underline;
+}
+.show-info {
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #607387;
+    padding-top: 8px;
+    padding-left: 135px;
+    padding-bottom: 8px;
+}
+.show-info:hover {
+    background-color: #E2E9F1;
+}
+.header-photo-block {
+    background-color: #DEE5EB;
+    height: 25px;
+}
+.left-photo-info {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #45688E;
+    font-weight: bold;
+    float: left;
+    width: 227px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+.right-photo-info {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #99ADC2;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+}
+.right-photo-info:hover {
+    text-decoration: underline;
+}
+.account-discription {
+    padding-bottom: 10px;
+}
+.sized-post {
+    display: inline-block;
+    width: 71px;
+    height: 70px;
+    overflow: hidden;
+}
+.sized-photo-status {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.writes-block {
+    background-color: #DEE5EB;
+    height: 25px;
+}
+.left-writes-info {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #45688E;
+    font-weight: bold;
+    float: left;
+    width: 261px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+.right-writes-info {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #99ADC2;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+}
+.right-writes-info:hover {
+    text-decoration: underline;
 }
