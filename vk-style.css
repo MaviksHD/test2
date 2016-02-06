@@ -50,7 +50,9 @@ table {
     display: inline-block;
     float: right;
     border-left: solid 1px #D9E0E7;
-    padding-right: 14px;
+    /* padding-right: 13px; */
+    border-right: solid 1px #D9E0E7;
+    margin-right: 13px;
 }
 tbody {
     display: table-row-group;
@@ -272,9 +274,6 @@ input {
 .left-sidebar-block-border {
     border-bottom: solid 1px #e2e9f1;
     border-top: solid 1px #e2e9f1;
-}
-.main-body{
-    border-right: solid 1px #D9E0E7;
 }
 .account-header {
     background-color: #E9EDF1;
@@ -699,7 +698,7 @@ input {
     padding-bottom: 8px;
 }
 .show-info:hover {
-    background-color: #E2E9F1;
+    background-color: #E9EDF1;
 }
 .header-photo-block {
     background-color: #DEE5EB;
@@ -769,4 +768,127 @@ input {
 }
 .right-writes-info:hover {
     text-decoration: underline;
+}
+.submit-box {
+    background: #F1F1F1;
+}
+.text-input {
+    margin: 9px 8px 5px;
+    width: 343px;
+    height: 14px;
+    padding: 5px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    color: #9a9a9a;
+    font-size: 11px;
+}
+.wall-post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.wall-avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.l-clm {
+    float: left;
+}
+.r-clm {
+    display: inline-block;
+    margin-left: 10px;
+}
+.wall-acc-mame a{
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #2B587A;
+    font-weight: bold;
+}
+.wall-acc-mame a:hover {
+    text-decoration: underline;
+}
+.wall-post-img {
+    width: 302px;
+    height: 302px;
+    margin-top: 10px;
+}
+.wall-audio {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.wall-audio:hover {
+    background: #E9EDF1;
+}
+.wall-play-btn{
+    width: 16px;
+    height: 16px;
+    background: url("play1.png")no-repeat 0px;
+    padding-top: 13px;
+    padding-right: 6px;
+    margin-left: 3px;
+}
+.wall-track-info{
+
+}
+.wall-title-music{
+    width: 256px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 0.7em;
+    float: left;
+
+}
+.wall-title-music a {
+    color: #2B587A;
+}
+.wall-title-music a:hover {
+    text-decoration: underline;
+}
+.wall-duration-music{
+    float: right;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    color: gray;
+    font-size: 10px;
+}
+.wall-comments {
+    float: left;
+    margin-top: 10px;
+}
+.like {
+    display: inline-block;
+    width: 105px;
+    margin-left: 55px;
+    margin-top: 10px;
+
+}
+.name-heart, .heart, .number-hearts {
+    display: inline-block;
+}
+.name-heart {
+    color: #829BAF;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-weight: normal;
+    font-size: 10px;
+}
+.heart {
+    width: 13px;
+    height: 15px;
+    background: url("heart.png")no-repeat 1px 2px;
+    vertical-align: bottom;
+}
+.number-hearts {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    color: #7295b2;
+    font-weight: bold;
+}
+.url-heart {
+    padding-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.url-heart:hover {
+    background-color: #E9EDF1;
 }
