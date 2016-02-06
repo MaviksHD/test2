@@ -858,9 +858,8 @@ input {
 .like {
     display: inline-block;
     width: 105px;
-    margin-left: 55px;
+    margin-left: 53px;
     margin-top: 10px;
-
 }
 .name-heart, .heart, .number-hearts {
     display: inline-block;
